@@ -1,0 +1,32 @@
+lun jun  8 18:44:45 CEST 2015
+
+Tot això és un petit embolic. Ja que només activar el vim he d'encendre el corrector ortogràfic simultàniament he de canviar el teclat xD
+
+Tot i ser així, he de dir que gràcies a que ho faig tot amb el vim, me pareix menys esforç.
+Voldria en un futur molt pròxim arribar a configurar el vim a la meva pròpia voluntat.
+
+He d'admetre que tot i creure que se escriure correctament amb teclat. Noto que els meus dits pateixen de ser un teclat de membrana.
+Així que si comences a tocar el teclat mecànic. Un silenciós i sobretot un teclat que pensi amb la salut dels teus dits. Doncs estaria genial.
+He arribat a pensar que si pogués crear un teclat propi, fins i tot me l'he imaginat controlat per el microprocessador 8085. Doncs estaria molt bé.
+
+He pensat també en crear un sistema d'organitzar el ordinador de forma pròpia. Per exemple, que les instal·lacions no afectin en res en si
+funciona correctament el wifi. Ja que és molt molest actualitzar el sistema i màgicament les coses que funcionaven correctament deixin de funcionar.
+He pensat que se podria crear un programa, el qual necessitaria fins a un cert punt estar connectat amb altres ordinadors, el qual a força
+relativament bruta, arribar a controlar els drivers d'un aparell al teu favor. Ja que un no vol ni pensar en instal·lar coses que sense elles
+no pot fer absolutament res.
+Segurament et donaria un cert control.
+Like, tens aquests 7 possibles dirvers, quins vols activar?
+
+Pensar també com poder protegir un pc. Havia arribat a imaginar-me fer un sistema protegit fins i tot si és arrancat des d'una clau usb.
+
+Ara estic una mica pillat per arribar a crear una funció de naturals a naturals al quadrat.
+$ \N \to \N^2 $, el revés ja està fet: $ (a, b) \to \frac{(a + b)*(a + b + 1)}{2} + a $
+Ara per ara, la inversa que m'aparenta més correcta és a partir de $ x*(x+1) $ on quedaria una cosa similar a $ a+b = \frac {\sqrt{1 + 4*x} -1}{2} $
+Poc a poc espero que la calculadora comenci a tenir sentit propi ;)
+
+lun jun  8 19:01:52 CEST 2015
+lun jun  8 19:23:52 CEST 2015
+
+Doncs ara vaig a menjar i tot seguit a estudiar. Per tal de poder complir aquest objectiu, reclamo fer-ho sense cap pantalla
+
+lun jun  8 19:24:41 CEST 2015
