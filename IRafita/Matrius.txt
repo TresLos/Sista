@@ -1,0 +1,16 @@
+Aquí el contingut primordial d'una bona calculadora ;)
+	http://fr.wikipedia.org/wiki/Algorithme_de_Strassen
+
+Una petita millora
+	http://marco.bodrato.it/papers/Bodrato2010-StrassenLikeMatrixMultiplicationForSquares.pdf
+	// http://dblp.uni-trier.de/pers/hd/b/Bodrato:Marco
+
+Però té la crítica de que aquest mètode no és gaire estable.
+
+
+
+Una brutalitat
+	http://fr.wikipedia.org/wiki/Algorithme_de_Coppersmith-Winograd
+
+Se diu poc optim en questions de memoria "menys en calculs mes en memoria" depen de cada cas ;)
+
