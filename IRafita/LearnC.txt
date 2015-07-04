@@ -1,0 +1,8 @@
+Hauria de llegir algun manual de com funciona correctament el C.
+
+Ja que tinc les meves idees i crec que fins a un cert nivell són correctes, però em falta emmagatzemar aquesta informació de forma correcta.
+
+Docs crec jo que per aquí ja ta.
+
+Links
+http://www.tutorialspoint.com/cprogramming/c_pointers.htm
