@@ -1,0 +1,10 @@
+mar jul  7 09:02:08 CEST 2015
+
+Començo a pensar que he de fer cosses al respecte d'aquests escrits. Ja que no tinc de moment cap Paula amb qui fer-ho i no estic fent el que esperava que faria.
+Així que vull fer un bon canvi.
+
+També he de dir que en gran part feia això per a poder aprofitar molt més del eBook, així que una de les possibles solucions per a mi, seria fer-ho un pel més seriosament i començat a dominar el LaTeX, d'aquesta forma aconseguiria que tots els meus apunts i idees poguessin quedar a format de fàcil transport i divulgació. Ja que opino que les pantalles auto il·luminades no són gaire bones.
+
+Me veig fent un compilador per a transformar el que escric en LaTeX, un estil un tant decent i com que estaria fet en alguna mesura per mi, segur que funcionaria perfectament.
+
+mar jul  7 09:06:10 CEST 2015

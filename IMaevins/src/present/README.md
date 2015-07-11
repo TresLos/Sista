@@ -1,0 +1,40 @@
+idea present:
+
+- comenzar
+i, per sortir... 0 per testejar
+
+- remolon
+a, b, e, h, i, j, k, l, o, p, r, s, w
+
+- deu
+q, u
+
+- molt abanzat
+c, d, f, m, t
+
+
+Apartat like vim
+a	incertar al seguent caracter
+b	mou una paraula enrere just al inici d'aquesta
+c	P. eliminar + incertar
+d	P. eliminar
+e	mou a final de paraula, si ja estas, vas a la seguent paraula
+f	P. buscar a la linia
+g	P. !
+h	Mou <-
+i	incertar on estas
+j	Mou v
+k	mou ^
+l	Mou ->
+m	P. marca
+n	next find
+o	new line + incertar
+p	past
+q	Mode Save/ on//off
+r	replace
+s	eliminar + incertar
+t	P. busca a la linia, just caracter abans
+u	'enrere'
+v	Mode visual
+w	mou paraula endavant primer caracter
+z	P. !

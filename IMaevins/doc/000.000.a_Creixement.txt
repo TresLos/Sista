@@ -1,0 +1,50 @@
+De moment intentem generar un editor de text el més paregut al vim
+
+No és el real projecte, sino una part del mateix, ja que volem que pugui arribar a certs punts
+
+Like vim, sobretot perque com el mateix, ho volem comentar tot. No només aixó, també volem arribar al extrem de que si algu vol saber que estem fent tingui aquesta capacitat. Poc a poc com a anat creixent el mateix. fins i tot podra veure si tenim algun error que no em pogut solucionar i em tingut que tornar enrere.
+
+- Em comenzat amb el projecte !!
+
+Abans de res em fet el plantejament 000.000.a
+
+Fem una petita conclusio, que el mateix no cal que sigui responsable del nombre, ja que el responsable d'amunt se pot encarreguar sense problemes d'executar la instruccio ultima feta
+- o aixo esperem poder fer/ Per ara no tenim res fet al respecte
+
+Llavors si volem like vim, fem un petit historia d'aquest, on apreciem que g i z de moment no podem per mancanses de coneixement del mateix vim.
+i altres son mes complexes del que aparenten a primer cop de vista.
+
+
+Llavors ens hem dividit el problema en 4 apartats
+
+!!
+-em decidit com estructurar el codi, tot i que per ara no ho podem fer ja que ara per ara no som capazos de fer-ho.
+!!
+
+Llavors em atacat el problema, em comenzat pel comenzar
+
+- la primera versio (0)
+Ens em trobat quan el feiem que el make ha deixat de funcionar sense previ avis, ha comenzat a fer coses estranyes com fent que el enter fos nomes x++, i no tingues en compte la y, deixant-la per on anava.
+
+Ara al repassar si passava... Em vist que no.
+Ens ha servit de molt ja que em apres un parell de coses de com fer anar el curses. Cosa prou agradable. Crec que la versio mes agradable i comoda es la versio 001 que teniem com exemple.
+
+Grans problemes que ens em trobat, no sabiem realment com comunicar-nos amb els diferents apartats del propi programa.
+
+Altre cosa en compte, em descobert com compilar, o almenys una possible solucio valida de com compilar un fitxer que no conter un main, ja que per a mi el main nomes el conte el main principal. Aixi que no ens podiem permetre tal luxe, realment vindria a ser com aprendre a escriure les nostres llibreries propies. El gran secret ha sigut compilar amb -c, i despres fer un gcc amb tots els .o main.c i la llibreria -l curses ja que la interfaz ho reclama.
+
+Ha sigut una versio molt valida per aprendre el bon funcionament de la interfaz.
+
+- la segona versio (1)
+Ens em plantejat el problema de que no sabem com diferenciar el incert del replace
+Semblaria mes correcte si el que fessim fos mes realista en el sentit de fer que abans de guardar tot a la pantalla, tenir tot guardat en un altre lloc.
+Podriem fer com linies i contingut, like matriu de chars.
+
+Pero he d'admetre que semble prou mes comode fer anar la llibreria de strings, crec que aquest li pots sumar qualsevol linia o fer coeses mes haviat divertides.
+
+Tambe, per por a la perdua anterior (aparentment falsa) del treball, em fet una copia de seguretat. Per estar mes tranquils
+
+Ara ja fa cas al teclat, se comporta d'una forma prou agradable ara per ara.
+
+- la tercera versio (2)
+De moment no acabat, tinc gana i ho deixo ara per ara. Esque tot aquest treball le fet del tiron per deixar de pensar amb examens que mestreso sino
