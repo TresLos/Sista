@@ -1,0 +1,37 @@
+2 propostes.
+- Una, fer una struct, on aquesta tindrà dos valors, el de la llargada del digit (maxim 256, ho fariem aixi per defecte)
+- l'altre, fer nomes *char, on aquest podria funcionar amb base 128, aixi tens un que indica final i l'altre zero 'diferents'
+
+Per motius obis de suma mes simple farem el primer per ara
+
+> obtimitzacio prou simple seria fer anar threads per a exelerar el proces. Pero per ara no tinc coneixements al respecte.
+
+
+
+
+-------------------------------
+Creant una llibreria suma. Per les estructures no se com fer-ho realment
+----
+/* Serveix per declarar digits */
+IR_enter
+IR_enter_declarant_char (e)
+	char *e;
+{
+	int i;
+	for
+}
+-- > ho deixarem per mes endavant
+
+--------------------
+
+Crec haver descobert que &variable, doncs no se pot fer
+	&var = &var2;
+
+Es com si fos informacio, no que tu tinguis permissos per a canviar-los.
+
+----------
+sáb jul 11 10:00:16 CEST 2015
+
+Ho deixem per ara, som capazos de sumar part per part. Pero el porto, i les obtimitzacions esperades i desitjades encara no hi son
+
+sáb jul 11 10:00:51 CEST 2015

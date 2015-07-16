@@ -1,8 +1,8 @@
 
 /* Main */
 void Init_interfaz	(); /* Inicialitzar */
-char Read_Key		();
-void End_interfaz	();
+char Read_Key		(); /* llegeix una tecla */
+void End_interfaz	(); /* acaba amb tot */
 
 /*
 API de curses
