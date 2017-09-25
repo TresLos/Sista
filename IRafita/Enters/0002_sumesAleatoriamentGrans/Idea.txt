@@ -1,0 +1,8 @@
+jue jul 16 19:08:33 CEST 2015
+
+Ara a lo brutus, crec que puc fer-ho. He pensat una forma cutre per aconseguir el control al carry, aixi la suma relativament gran :)
+
+
+jue jul 16 19:32:16 CEST 2015
+
+Solució tant facil que em fa rabieta no haver-hi arribat abans. Nomes cal comprovar que el resultat es mes gran que la entrada i punt :)

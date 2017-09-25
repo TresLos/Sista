@@ -35,3 +35,7 @@ sáb jul 11 10:00:16 CEST 2015
 Ho deixem per ara, som capazos de sumar part per part. Pero el porto, i les obtimitzacions esperades i desitjades encara no hi son
 
 sáb jul 11 10:00:51 CEST 2015
+
+
+jue jul 16 18:50:41 CEST 2015
+Com simular que tenim el flag de carry?

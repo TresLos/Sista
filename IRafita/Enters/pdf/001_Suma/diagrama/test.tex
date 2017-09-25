@@ -1,0 +1,77 @@
+\begin{tikzpicture}[auto]
+% process/ decision/ terminal/ predproc/ storage/
+
+\node [draw, terminal]			(Inici)
+	{\begin{tabular}{l}
+		Definició, suma arbitrariament gran	\\
+		$\N	\begin{cases}
+				\text{size} \\ \text{*dígit}
+			\end{cases}$\\
+		Explicació, els naturals ara són dos valors, els punters i el tamany total dels mateixos.\\
+		Input: $a, b \in \N$\\
+		Output: $o \in \N$
+	\end{tabular}
+	};
+\node [draw, process, below of=Inici, node distance=3cm]	(Initi)
+	{\begin{tabular}{lll}
+		max		&= max			&(a.size, b.size)	\\
+		min		&= min			&(a.size, b.size)	\\
+		long		&= més\_llarg 		&(a.digit, b.digit)	\\
+		o.digit		&= Reserve\_Space	&(max +1)		\\
+		to, index	&= 0\end{tabular}};
+
+% Primera part
+\node [draw, decision, below of=Initi, node distance=4cm]	(PrimerWhile) {index $\overset{?}{<}$ min};
+\node [draw, process, below of=PrimerWhile, node distance=4cm]	(memoriesTemporals)
+	{\begin{tabular}{lcl}
+		ta		&=&	a.digit[index]	\\
+		tb		&=&	b.digit[index]	\\
+		to		&+=&	ta + tb		\\
+		o.digit[index]	&=&	to		\\
+		index		&++			\\
+		to		&=&	carry (0 sino, 1 si si)
+	\end{tabular}};
+\node [draw, decision, below of=memoriesTemporals, node distance=3cm]	(PunyetesCarry) {to};
+\node [draw, decision, below of=PunyetesCarry, node distance=3cm]	(DinsInterval)	{index $\overset{?}{<}$ max};
+\node [draw, process, below of=DinsInterval, node distance=3cm]		(FinalLlarg)
+	{\begin{tabular}{ll}
+		o.digit[max]	&= 1	\\
+		o.size		&= max +1
+	\end{tabular}};
+\node [draw, terminal, below of=FinalLlarg, node distance=2cm]		(endLlarg)	{return o};
+
+\node [draw, process, right of=DinsInterval, node distance=5cm]		(SegonaApartat)
+	{\begin{tabular}{lcl}
+		to		&+=&	long[index]	\\
+		o.digit[index]	&=&	to		\\
+		index		&++			\\
+		to		&=&	carry
+	\end{tabular}};
+
+\node [draw, decision, below of=endLlarg, node distance=4cm]		(DinsInterval2)	{index $\overset{?}{<}$ max};
+\node [draw, process, below of=DinsInterval2, node distance=3cm]	(TerceraPart)
+	{\begin{tabular}{ll}
+		o.digit[index]	&= long[index]	\\
+		index		&++
+	\end{tabular}};
+
+\node [draw, process, left of=DinsInterval2, node distance=5cm]		(ShortEnd)	{o.size = max};
+\node [draw, terminal, below of=ShortEnd, node distance=2cm]		(EndB)		{return o};
+
+\draw [->] (Inici)			--							(Initi);
+\draw [->] (Initi)			-- node[anchor=west] {Primer bucle, fem sumes normals}	(PrimerWhile);
+\draw [->] (PrimerWhile)		-- node[anchor=west] {Yes}				(memoriesTemporals);
+\draw [->] (memoriesTemporals)		-- + (4, 0) |-						(PrimerWhile.0);
+\draw [->] (PrimerWhile)		-- + (-4, 0) node[anchor=south] {No} |- node[anchor=north] {Segona part}	(PunyetesCarry);
+\draw [->] (PunyetesCarry)		-- node[anchor=east] {Yes}				(DinsInterval);
+\draw [->] (DinsInterval)		-- node[anchor=east] {No}				(FinalLlarg);
+\draw [->] (FinalLlarg)			--							(endLlarg);
+\draw [->] (DinsInterval)		-- node[anchor=south] {Yes}				(SegonaApartat);
+\draw [->] (SegonaApartat)		|-							(PunyetesCarry);
+\draw [->] (PunyetesCarry)		-- + (0, 1) node[anchor=east] {No} -| + (9, -10) -| node[anchor=south] {Tercera part}	(DinsInterval2);
+\draw [->] (DinsInterval2)		-- node[anchor=east] {Yes}				(TerceraPart);
+\draw [->] (TerceraPart)		-- + (3, 0) |-						(DinsInterval2);
+\draw [->] (DinsInterval2)		-- node[anchor=south] {No}				(ShortEnd);
+\draw [->] (ShortEnd)			--							(EndB);
+
+\end{tikzpicture}

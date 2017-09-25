@@ -2,3 +2,7 @@
 *.swp
 # on m'agrada deixar les coses brutes
 b
+
+# programan en C
+a.out
+*.o
